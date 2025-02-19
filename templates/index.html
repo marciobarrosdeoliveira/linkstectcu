@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rotação de Links</title>
+<style>
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+
+body {
+display: flex;
+flex-direction: column;
+height: 100vh;
+overflow: hidden;
+}
+
+#topBar {
+background: #007BFF;
+color: white;
+text-align: center;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+height: 60px;
+}
+
+h1 {
+font-size: 18px;
+margin: 0;
+flex-grow: 1;
+}
+
+button {
+padding: 8px 15px;
+font-size: 14px;
+border: none;
+border-radius: 5px;
+background: white;
+color: #007BFF;
+cursor: pointer;
+transition: background 0.3s;
+}
+
+button:hover {
+background: #e0e0e0;
+}
+
+iframe {
+flex-grow: 1;
+width: 100%;
+border: none;
+}
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+// Função para carregar o próximo link
+window.loadNextLink = function () {
+fetch("/next")
+.then(response => response.json())
+.then(data => {
+// Atualiza o iframe com o próximo link
+document.getElementById("contentFrame").src = data.next_link;
+})
+.catch(error => {
+console.error("Erro ao carregar o próximo link:", error);
+});
+};
+});
+</script>
+</head>
+<body>
+<div id="topBar">
+<h1>Rotação de Links</h1>
+<button onclick="loadNextLink()">Próximo Link</button>
+</div>
+<iframe id="contentFrame" src="{{ link }}"></iframe>
+</body>
+</html>
