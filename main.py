@@ -7,11 +7,33 @@ DATABASE = "links.db"
 
 # Lista de links iniciais
 LINKS = [
-    "https://www.tecconcursos.com.br/questoes/cadernos/65217749",
-    "https://www.tecconcursos.com.br/questoes/cadernos/555555",
+    "https://www.tecconcursos.com.br/questoes/cadernos/65218110",
+    "https://www.tecconcursos.com.br/questoes/cadernos/65217501",
+    "https://www.tecconcursos.com.br/questoes/cadernos/65117105",
+    "https://www.tecconcursos.com.br/questoes/cadernos/65217451",
     "https://www.tecconcursos.com.br/questoes/cadernos/65217337",
+    "https://www.tecconcursos.com.br/questoes/cadernos/65217749",
     "https://www.tecconcursos.com.br/questoes/cadernos/65217391",
     "https://www.tecconcursos.com.br/questoes/cadernos/65217783",
+    "https://www.tecconcursos.com.br/questoes/cadernos/65217774",
+    "https://www.tecconcursos.com.br/questoes/cadernos/65085170",
+    "https://www.tecconcursos.com.br/questoes/cadernos/65085445",
+    "https://www.tecconcursos.com.br/questoes/cadernos/65105282",
+    "https://www.tecconcursos.com.br/questoes/cadernos/65217954",
+    "https://www.tecconcursos.com.br/questoes/cadernos/65217958",
+    "https://www.tecconcursos.com.br/questoes/cadernos/65217967",
+    "https://www.tecconcursos.com.br/questoes/cadernos/65217974",
+    "https://www.tecconcursos.com.br/questoes/cadernos/65217920",
+    "https://www.tecconcursos.com.br/questoes/cadernos/65217713",
+    "https://www.tecconcursos.com.br/questoes/cadernos/65217891",
+    "https://www.tecconcursos.com.br/questoes/cadernos/65217905",
+    "https://www.tecconcursos.com.br/questoes/cadernos/65116701",
+    "https://www.tecconcursos.com.br/questoes/cadernos/65217043",
+    "https://www.tecconcursos.com.br/questoes/cadernos/65218046",
+    "https://www.tecconcursos.com.br/questoes/cadernos/65218029",
+    "https://www.tecconcursos.com.br/questoes/cadernos/65218040",
+    "https://www.tecconcursos.com.br/questoes/cadernos/65218067",
+    "https://www.tecconcursos.com.br/questoes/cadernos/65217310",
     # Novo link adicionado
 ]
 
