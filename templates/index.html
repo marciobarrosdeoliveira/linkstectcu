@@ -85,6 +85,17 @@
         }
     </style>
     <script>
+        function loadNextLink() {
+            fetch("/next")
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("contentFrame").src = data.next_link;
+                })
+                .catch(error => {
+                    console.error("Erro ao carregar o próximo link:", error);
+                });
+        }
+
         document.addEventListener("DOMContentLoaded", function () {
             let isMobile = window.matchMedia("only screen and (max-width: 768px)").matches;
             if (!isMobile) {
