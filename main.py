@@ -10,6 +10,18 @@ LINKS = [
     "https://www.tecconcursos.com.br/questoes/cadernos/71567640",
     "https://www.tecconcursos.com.br/questoes/cadernos/71126507",
     "https://www.tecconcursos.com.br/questoes/cadernos/71567654",
+    "https://www.tecconcursos.com.br/questoes/cadernos/71145453",
+    "https://www.tecconcursos.com.br/questoes/cadernos/71567719",
+    "https://www.tecconcursos.com.br/questoes/cadernos/71145441",
+    "https://www.tecconcursos.com.br/questoes/cadernos/71145457",
+    "https://www.tecconcursos.com.br/questoes/cadernos/71145424",
+    "https://www.tecconcursos.com.br/questoes/cadernos/71145434",
+    "https://www.tecconcursos.com.br/questoes/cadernos/71567723",
+    "https://www.tecconcursos.com.br/questoes/cadernos/71567635",
+    "https://www.tecconcursos.com.br/questoes/cadernos/71567622",
+    "https://www.tecconcursos.com.br/questoes/cadernos/71567631",
+    "https://www.tecconcursos.com.br/questoes/cadernos/71145055",
+    "https://www.tecconcursos.com.br/questoes/cadernos/71145465",
     # Novo link adicionado
 ]
 
